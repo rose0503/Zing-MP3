@@ -79,6 +79,7 @@ a {
 
     .background2 li > p {
         color: whitesmoke;
+        font-size: 12px;
     }
 
     .component2-left img {
@@ -96,7 +97,7 @@ a {
         width: 40%;
         background-color: #362a56;
         
-background: linear-gradient(180deg, #362a56 0%, #292337 100%);
+        background: linear-gradient(180deg, #362a56 0%, #292337 100%);
     }
     
     .component2-item {
@@ -127,7 +128,7 @@ background: linear-gradient(180deg, #362a56 0%, #292337 100%);
         text-transform: capitalize;
     }
     .icon-color-start {
-        color: rgb(160, 148, 148);
+        color: rgb(248, 242, 242);
         font-size: 12px;
         margin-left: 2px;
     }
