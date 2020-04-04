@@ -15,6 +15,7 @@ a {
 .component2 {
     display: flex;
     border-radius: 5px;
+    
 }
     .component2-left {
         width: 60%;
@@ -34,7 +35,7 @@ a {
 
     .background2 > a {
         color: white;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: bold;
         padding: 5px 15px;
         border-radius: 20px;
@@ -43,9 +44,10 @@ a {
     }
 
     .background2 > p {
-        font-size: 1.25rem;
+        font-size: 0.9rem;
         color: white;
         float: left;
+        margin-left: 12px;
     }
 
     .background2 button {
@@ -55,7 +57,8 @@ a {
         background-color: #65509e;
         border: none;
         float: right;
-        
+        font-size: 0.85rem;
+        text-align: center;
     }
 
     .background2 ul {
@@ -81,7 +84,10 @@ a {
     .component2-left img {
         width: 100%;
         display: block;
+        background-size: cover;
+        height: 100%;
     }
+
 
     .component2-right {
         display: flex;
@@ -89,8 +95,10 @@ a {
         padding: 10px;
         width: 40%;
         background-color: #362a56;
+        
+background: linear-gradient(180deg, #362a56 0%, #292337 100%);
     }
-
+    
     .component2-item {
         padding: 10px 10px 10px 20px;
         border-radius: 5px;
@@ -107,6 +115,31 @@ a {
         margin: 0px 10px;
     }
 
+    .title-sing {
+        font-size: 13px !important;
+        color: #fcfcfc;
+        text-transform: capitalize;
+    }
+
+    .name-singer {
+        font-size: 11px;
+        color: #a0a0a0;
+        text-transform: capitalize;
+    }
+    .icon-color-start {
+        color: rgb(160, 148, 148);
+        font-size: 12px;
+        margin-left: 2px;
+    }
+    .show-all {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .show-all a {
+        color: white;
+    }
     .component2-item .item-image > .background1 {
         background-color: #00000070;
         color: white;
@@ -147,6 +180,6 @@ a {
 
     .component2-item > p:last-child {
         color: #4a90e2;
-        font-size: 1.05rem;
+        font-size: 0.9rem;
     }
 /* End Of Component 2 */

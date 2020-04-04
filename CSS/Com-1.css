@@ -19,6 +19,10 @@ a {
 
 .wrapper-top {
     margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #32323d !important;
 }
 
 .wrapper-top h4 {
@@ -44,6 +48,7 @@ a {
     font-size: 1rem;
     font-weight: 600;
     color: black;
+    color: #585861 !important;
     margin-top: 10px;
     display: inline-block;
 }
@@ -90,4 +95,7 @@ a {
         transition: all 0.7s;
     }
 
+    .icon-color {
+        color: white;
+    }
 /* End Of Component1 */
