@@ -10,7 +10,7 @@
 
 a {
     text-decoration: none;
-    color: #32323d !important;
+    color: #32323d ;
     font-size: 0.93rem ;
 }
 
@@ -122,6 +122,7 @@ a {
         text-transform: uppercase;
         text-decoration: none;
         color: black;
+        color: #32323d !important;
     }
 
     .toggle-table {
@@ -150,6 +151,7 @@ a {
         padding: 10px;
         font-size: 0.98rem;
         padding: 10px;
+        color: #32323d !important;
     }
 
     .toggle-table td:hover {

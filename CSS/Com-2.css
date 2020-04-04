@@ -49,12 +49,13 @@ a {
     }
 
     .background2 button {
-        color: white;
+        color: white ;
         padding: 10px;
         border-radius: 5px;
         background-color: #65509e;
         border: none;
         float: right;
+        
     }
 
     .background2 ul {
