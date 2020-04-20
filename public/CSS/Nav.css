@@ -84,7 +84,7 @@ a {
     .user > button {
         border: none;
         background-color: transparent;
-        
+        outline: none;
     }
     /* End Of Header Top */
 
